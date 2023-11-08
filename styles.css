@@ -9,6 +9,7 @@ body{
     background-color: black;
 }
 
+/* utiliser les pourcentages permet au site de s adapter en cas de reduction de l ecran : la responsivite a venir   */
 .header{
     height: 80px;
     margin-top: 45px;
@@ -17,15 +18,15 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 }
-
+/* la on centre le bloc menu deja cree et on le met au milieu : genre le bloc menu est carrement au milieu et prend  100% de la hauteur du header qui fait 80px  */
 .menu{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
 
+/* la aussi on centre le bloc ul sur le bloc menu et on lui donne 100% de sa largeur et de sa hauteur  et faire attention au pourcentages  */
 .menu ul{
     display: flex;
     justify-content: space-between;
