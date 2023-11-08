@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    height: 80px;
+    margin-top: 45px;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+.left-menu, .right-menu{
+    display: flex;
+}
+
+li a{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
